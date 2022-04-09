@@ -1,0 +1,498 @@
+
+
+
+.logo {
+
+    display:block;
+    margin:auto;
+
+} 
+
+
+   nav{
+
+    width: 60%;
+    margin-left: 20%; 
+    margin-right: 30%; 
+
+   }
+
+
+  nav ul {
+
+ 
+   background-color:rgb(195, 197, 48); 
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+
+  }
+  nav ul li{
+
+
+ padding: 10px;
+ margin: 10px;
+ display: inline-block;
+ min-width: 200px;
+
+
+  }
+  nav ul li a{
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+
+  }
+
+  nav ul li a:hover{
+    color: black;
+}
+/* parte del seccion noticias*/
+
+ body .contenedorpadre{
+
+    border: 2px solid red;
+    width: 60%;
+    height: 46%;
+    margin-left: 20%; 
+    margin-right: 30%; 
+
+}
+   section {
+
+  
+   float: right;
+   width: 70%;
+   height: 93%;
+   margin: auto;
+   padding: 10px;
+   
+ 
+
+  }
+
+   .tupper { 
+    
+    
+    
+    width: 98%;
+    height: 45%;
+    background-color:rgb(195, 197, 48);
+    border-radius: 1rem;
+
+
+  }
+   .tupper p{
+
+    max-height: 14ch;
+    text-overflow: Ellipsis; /* will make [...] at the end */
+    white-space: wrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+    margin: 20px;
+    padding: 20px;
+    color: white;
+
+
+   }
+
+   .tupper2 { 
+
+    
+    width: 98%;
+    height: 45%;
+    background-color:rgb(195, 197, 48);
+    border-radius: 1rem;
+
+  }
+   .tupper2 p{
+
+     
+    max-height: 14ch;
+    text-overflow: Ellipsis; /* will make [...] at the end */
+    white-space: wrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+    margin: 20px;
+    padding: 20px;
+    color: white;
+
+
+   }
+   
+   .caja {
+
+    text-align: left;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    min-width: 200px;
+    font-size: 18px;
+
+
+   }
+   
+   .noticia{
+
+   font-size: 20px;
+   color:  black;
+   }
+
+
+   .aside {
+
+    
+    text-align: center;
+    width: 20%;
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+
+   .aside p {
+
+   padding: 0;
+   margin: 0;
+
+   }
+  
+
+    /* HOVER DE LOS POKEMON */
+
+    .pokemon {
+
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        position: relative;
+        color: #333;
+        text-decoration: none;
+        transition: all .5s ease;
+        transform-style: preserve-3d;
+      
+        }
+     
+        .pokemon:after{
+     
+         content: "Enlace";
+         position: absolute;
+         top: -100%;
+         left: 0px;
+         width: 100%;
+         background: #ccc;
+         transform-origin: left bottom;
+         transform: rotateX(90deg);
+        
+        }
+     
+        .pokemon:hover{
+     
+         transform-origin: center bottom;
+         transform: rotateX(-90deg) translateY(100%);
+     
+        }
+
+
+  
+  
+    footer {
+
+        background: ;
+        text-align: center;
+        color: black;
+       
+    }
+    
+     #hola {
+
+        color: black;
+        padding: 5px;
+
+     }
+     footer img{
+
+       width: 18px;
+       height: 18px;
+       float:left;
+       margin: 5px;
+       border-radius: 5px;
+
+     }
+     footer img:hover{
+
+
+        transform: scale(1.2);
+     }
+
+     
+ 
+
+   
+    
+
+    
+    
+
+
+
+
+  
+  
+
+    
+    /*
+    .pie_de_pagina ul {
+
+    list-style: none;
+    padding: -20px;
+    
+    
+
+   }
+
+  
+    .pie_de_pagina ul li{
+
+    float: left;
+    margin-top: -20px;
+  
+
+   
+   }
+   
+
+   .pie_de_pagina ul li a{
+
+      
+      color:rgb(58, 55, 55);
+      text-decoration: none;
+      font-size: 25px;
+      padding: 0px 16px;
+      float: left;
+    
+
+   }
+
+
+   .textofooter ul {
+
+    list-style: none;
+    padding: -20px;
+    
+
+   }
+
+    .textofooter ul li{
+
+    float: center;
+    margin-top: -20px;
+  
+   
+   }
+   
+
+   .textofooter ul li a{
+
+      font-weight: arial;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 0px 15px;
+      float: right;
+    
+
+   }
+
+
+  
+
+   .direccion {
+
+
+   
+    width: 37%;
+    height: 70%;
+    background-color:white;
+    margin: auto;
+    padding: auto;
+   
+   
+
+   }
+
+   .letras {
+
+
+       text-align: left;
+       font-size: 20px;
+       font-weight: arial;
+       text-decoration: none;
+       padding-left: 15%;
+
+
+   }
+
+
+   .formulario {
+
+    border-radius: 1rem;
+    float: right;
+    flex-direction: column;
+    width: 48%;
+    height: 80%;
+    padding: auto;
+    background-color:rgb(195, 197, 48);
+    margin: auto;
+    
+   }
+
+   .registro {
+
+    height: 350px;
+    width: 400px;
+    background-color:rgb(195, 197, 48);
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 17px;
+    border-radius: 4px;
+    font: arial;
+    color:white
+    
+   }
+
+   .form {
+
+    width: 80%;
+    background-color:white;
+    padding:  8px; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font: arial;
+    font-size: 12px;
+
+   }
+
+   .mensaje {
+ 
+    height: 85px;
+    width: 80%;
+    background-color:white;
+    padding:  8px; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font: arial;
+    font-size: 12px;
+    
+   }
+
+
+    .boton{
+
+    transition: background-color .5s;
+    width: 29%;
+    background-color: rgb(61, 121, 211);
+    border:none;
+    border-radius: 4px;
+    padding: 12px;
+    color:white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+ 
+    .boton:hover{
+
+     background-color: red;
+     border-radius: 1.5em .5em / 2.5em 2em;
+     box-shadow: 0px 0px 4px #222;
+
+
+    }
+
+    @media (max-width: 415px){
+
+       
+
+       nav{
+
+           height: 5px;
+           background-color:rgb(195, 197, 48);
+           padding: 30px;
+           text-align: center;
+           margin:auto;
+           width: 1000px;
+    
+        }
+
+        body .contenedorpadre {
+
+   
+            display: flex ;
+            flex-wrap:wrap;
+            flex-direction: column;
+            background-color: white;
+            height: 540px;
+            width: 1060px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer .piepadre{
+
+
+            height: 10px;
+            background-color:rgb(195, 197, 48);
+            padding: 20px;
+            text-align: center;
+            margin:auto;
+            width: 1020px;
+            
+    
+        }
+
+
+    }
+
+    
+   
+
+
+
+   
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
